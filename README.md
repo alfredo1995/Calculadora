@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturasDeControle
-{
-    public class CalculadoraSwitch
+    namespace CursoCSharp.EstruturasDeControle
     {
-        public static void Executar()
+        public class CalculadoraSwitch
         {
-            Console.WriteLine("Digite o primeiro numero");
-            int.TryParse(Console.ReadLine(), out int primeiroValor);
+            public static void Executar()
+            {
+                Console.WriteLine("Digite o primeiro numero");
+                int.TryParse(Console.ReadLine(), out int primeiroValor);
 
             Console.WriteLine("Digite o segundo numero");
             int.TryParse(Console.ReadLine(), out int segundoValor);
@@ -48,5 +48,4 @@ namespace CursoCSharp.EstruturasDeControle
             }
 
         }
-    }
-}
+    } }
